@@ -22,8 +22,7 @@
 10. Display a message before reading a variable, then read the variable.
    * Ex: "a =" read value"
 
-   
-# Laborator 2
+## Laborator 2
 
 1. Scoateţi simbolul D din următoarele expresii folosind CAR si CDR.
 (A B C D)
