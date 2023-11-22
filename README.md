@@ -1,35 +1,26 @@
 # PF---CLISP
 
 ## Laborator 1
-# Lisp Expressions and Evaluations
 
-1. Transpose and evaluate the following expressions in Lisp:
-   a. \( \frac{(25 + 30) \times 15}{2} \)
-   b. \( 6 \times 3.1416 \)
-
-2. Determine the integer quotient for the arithmetic mean of the numbers:
-   5, 6.7, -23.2, 75, and 100.3
-
-3. Determine the remainder of the division of the numbers:
-   a. \( 365 \div 12 \)
-   b. \( 13 \div 467 \)
-
-4. Write in Lisp expression form and evaluate the solutions for the following quadratic equation:
-   \( 2x^2 + 7x + 5 = 0 \)
-
-5. Determine the rounded-down and rounded-up integer result, then increment and decrement the result for the expression:
-   \( \frac{(5 \times 2.25 - 7.13)}{(45 - \frac{25}{5})} \)
-
-6. Evaluate the following Lisp forms:
-   a. \( \text{(* (MAX 3 4 5) (MIN 3 4 5))} \)
-   b. \( \text{(EXPT (MAX 3 1 4) (MAX 2 7 1))} \)
-   c. \( \text{(REM (+ 5 7 13) (- 14 1))} \)
-
-7. Display the result from problem 3 in the form of a message:
-   Example: "The remainder of the division of the numbers ... and ... is: ..."
-
-8. Display a message before reading a variable, then read the variable.
-   Example: "a =" read value
+3. Transpose the following expressions into LISP and then evaluate them:
+   * (25 + 30) * 15/2
+   * 6 * 3.1416
+4. Determine the integer quotient for the arithmetic mean of the numbers:
+   * 5, 6.7, -23.2, 75, and 100.3
+5. Determine the remainder of the division of the numbers:
+   * 365 divided by 12, 13, and 467
+6. Write in LISP form the solutions to the following quadratic equation, then evaluate the expressions:
+   * 2x^2 + 7x + 5 = 0
+7. Determine the integer result by rounding down and up, then increment and decrement the result for the following expression:
+   * (5 * 2.25 – 7.13) / (45 – 25 / 5)
+8. Evaluate the following forms:
+   * (* (MAX 3 4 5) (MIN 3 4 5))
+   * (EXPT (MAX 3 1 4) (MAX 2 7 1))
+   * (REM (+ 5 7 13) (- 14 1))
+9. Display the result from problem 3 in the form of a message:
+   * Ex: the remainder of the division of the numbers ... and ... is: ...
+10. Display a message before reading a variable, then read the variable.
+   * Ex: "a =" read value"
 
    
 # Laborator 2
