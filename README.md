@@ -20,7 +20,7 @@
 9. Display the result from problem 3 in the form of a message:
    * Ex: the remainder of the division of the numbers ... and ... is: ...
 10. Display a message before reading a variable, then read the variable:
-   * Ex: "a =" read value"
+     * Ex: "a =" read value"
 
 ## Laborator 2
 
