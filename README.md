@@ -1,26 +1,35 @@
 # PF---CLISP
 
-# Laborator 1
+## Laborator 1
 
-3. Transpuneţi în LISP următoarele expresii şi apoi evaluați-le:
-(25 + 30) * 15/2
-6 * 3.1416
-4. Determinaţi câtul întreg pentru media aritmetică a numerelor:
-5, 6.7, -23.2, 75 și 100.3
-5. Determinaţi restul împărțirii numerelor:
-365 12, 13 şi 467
-6. Scrieţi sub formă de expresie LISP soluțiile următoarei ecuații de gradul 2, apoi evaluați expresiile:
-2x2 +7x +5 = 0
-7. Determinaţi rezultatul întreg prin rotunjire în jos, respectiv în sus, apoi incrementați, respectiv decrementați rezultatul pentru următoarea expresie: (5 * 2.25 – 7.13) / (45 – 25 / 5)
-8. Evaluaţi următoarele forme:
-(* (MAX 3 4 5) (MIN 3 4 5))
-(EXPT (MAX 3 1 4) (MAX 2 7 1))
-(REM (+ 5 7 13) (- 14 1))
-9. Afişaţi rezultatul de la problema 3 sub forma unui mesaj:
-Ex: restul impărțirii numerelor … şi … este:…
-10. Afişați un mesaj înainte de citirea unei variabile, apoi citiți variabila.
-Ex: “a =” citire valoare
+1. Transpose and evaluate the following expressions in Lisp:
+   a. \( \frac{(25 + 30) \times 15}{2} \)
+   b. \( 6 \times 3.1416 \)
 
+2. Determine the integer quotient for the arithmetic mean of the numbers:
+   5, 6.7, -23.2, 75, and 100.3
+
+3. Determine the remainder of the division of the numbers:
+   a. \( 365 \div 12 \)
+   b. \( 13 \div 467 \)
+
+4. Write in Lisp expression form and evaluate the solutions for the following quadratic equation:
+   \( 2x^2 + 7x + 5 = 0 \)
+
+5. Determine the rounded-down and rounded-up integer result, then increment and decrement the result for the expression:
+   \( \frac{(5 \times 2.25 - 7.13)}{(45 - \frac{25}{5})} \)
+
+6. Evaluate the following Lisp forms:
+   a. \( \text{(* (MAX 3 4 5) (MIN 3 4 5))} \)
+   b. \( \text{(EXPT (MAX 3 1 4) (MAX 2 7 1))} \)
+   c. \( \text{(REM (+ 5 7 13) (- 14 1))} \)
+
+7. Display the result from problem 3 in the form of a message:
+   Example: "The remainder of the division of the numbers ... and ... is: ..."
+
+8. Display a message before reading a variable, then read the variable.
+   Example: "a =" read value
+   
 # Laborator 2
 
 1. Scoateţi simbolul D din următoarele expresii folosind CAR si CDR.
