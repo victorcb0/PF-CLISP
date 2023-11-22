@@ -1,6 +1,7 @@
 # PF---CLISP
 
 ## Laborator 1
+# Lisp Expressions and Evaluations
 
 1. Transpose and evaluate the following expressions in Lisp:
    a. \( \frac{(25 + 30) \times 15}{2} \)
@@ -29,6 +30,7 @@
 
 8. Display a message before reading a variable, then read the variable.
    Example: "a =" read value
+
    
 # Laborator 2
 
