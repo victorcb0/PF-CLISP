@@ -5,68 +5,78 @@
 3. Transpose the following expressions into LISP and then evaluate them:
    * (25 + 30) * 15/2
    * 6 * 3.1416
+
 4. Determine the integer quotient for the arithmetic mean of the numbers:
    * 5, 6.7, -23.2, 75, and 100.3
+
 5. Determine the remainder of the division of the numbers:
    * 365 divided by 12, 13, and 467
+
 6. Write in LISP form the solutions to the following quadratic equation, then evaluate the expressions:
    * 2x^2 + 7x + 5 = 0
+
 7. Determine the integer result by rounding down and up, then increment and decrement the result for the following expression:
    * (5 * 2.25 – 7.13) / (45 – 25 / 5)
+
 8. Evaluate the following forms:
    * (* (MAX 3 4 5) (MIN 3 4 5))
    * (EXPT (MAX 3 1 4) (MAX 2 7 1))
    * (REM (+ 5 7 13) (- 14 1))
+
 9. Display the result from problem 3 in the form of a message:
    * Ex: the remainder of the division of the numbers ... and ... is: ...
+
 10. Display a message before reading a variable, then read the variable:
    * Ex: "a =" read value"
 
 ## Laborator 2
 
-1. Scoateţi simbolul D din următoarele expresii folosind CAR si CDR.
-(A B C D)
-(A (B C) (D E))
-(A (B C (D E)))
-((A) (B) (C) (D) (E))
-( A (B) ((C)) (((D))) ((((E)))))
-((((A) B) C) D)
-2. Evaluaţi următoarea expresie Lisp, apoi returnaţi lungimea listei rezultat:
-(subst ' azi ' maine (reverse ' (frumoasa zi o este maine)))
-3. Evaluaţi ȋn ordine şi argumentaţi rezultatul, următoarele expresii :
-(setq lista ’(a b c (d e))
-(setq M ’max)
-(cons M lista)
-(cons lista M)
-(append (list M) (last (cdr lista)))
-(list ' M (cadr lista))
-(append ' lista (list M (last lista)))
-(list (car lista) (cadr lista) (caddr lista) M)
-4. Se considera lista:
-((A) (B) (C) (D) (E))
-Folosind toate funcțiile de construcție a listelor și cele de acces la elementele unei liste, contruiți următoarea listă:
+1. Remove the symbol D from the following expressions using CAR and CDR:
+   * (A B C D)
+   * (A (B C) (D E))
+   * (A (B C (D E)))
+   * ((A) (B) (C) (D) (E))
+   * (A (B) ((C)) (((D))) ((((E)))))
+   * ((((A) B) C) D)
+
+2. Evaluate the following Lisp expression, then return the length of the resulting list:
+   * (subst ' azi ' maine (reverse ' (frumoasa zi o este maine)))
+
+3. Evaluate in order and justify the result for the following expressions:
+   * (setq lista ’(a b c (d e))
+   * (setq M ’max)
+   * (cons M lista)
+   * (cons lista M)
+   * (append (list M) (last (cdr lista)))
+   * (list ' M (cadr lista))
+   * (append ' lista (list M (last lista)))
+   * (list (car lista) (cadr lista) (caddr lista) M)
+
+4. Consider the list:
+   * ((A) (B) (C) (D) (E))
+Using all list construction and access functions, build the following list:
 ((((A) (B) (C)) . B) (E D C) D)
-Se evalueaza cu nota maxima acea rezolvare care include toate functiile predefinite prezentate.
-5. Se considera lista:
-l1 : ((((A) (B)) C) (D) (EF G))
-Corectati eroarea aparuta in urma evaluarii expresiei:
-(append (cadr l1) (car (nth '1 l1)) (last l1))
-Argumentati apoi rezultatul evaluarii expresiei:
-(cons (nth '3 l1) (nthcdr '2 l1))
-6. Evaluând expresiile urmatoare, obţineţi rezultatele:
+
+5. Consider the list:
+   * l1 : ((((A) (B)) C) (D) (EF G))
+Correct the error resulting from the evaluation of the expression:
+   * (append (cadr l1) (car (nth '1 l1)) (last l1))
+Then justify the result of the expression:
+   * (cons (nth '3 l1) (nthcdr '2 l1))
+6. Evaluate the following expressions and obtain the results:
 > (setq E '(x y ((z) u)) F (last E) G (caar F))
 (Z)
->(setq X '12 Y '14 Z '22 E (- (+ x y) z))
+> (setq X '12 Y '14 Z '22 E (- (+ x y) z))
 4
->(setq M (MIN 1 -4 23 56 1) P (* M 10) X (EXPT P 2))
+> (setq M (MIN 1 -4 23 56 1) P (* M 10) X (EXPT P 2))
 1600
-Evaluaţi pentru fiecare expresie ȋn parte simbolurile şi argumentaţi rezultatul.
-7. Se considera lista:
-(A B C D)
-Folosind functia SUBST impreuna cu alte functii, obtineti din lista initiala lista:
-(D B C A)
-Folosind functia REVERSE impreuna cu alte functii, obtineti din lista initiala, lista:
-(D A B C)
+Evaluate each expression separately, analyze the symbols, and justify the result.
+7. Consider the list:
+   * (A B C D)
+Using the SUBST function along with other functions, obtain from the initial list:
+   * (D B C A)
+Using the REVERSE function along with other functions, obtain from the initial list:
+   * (D A B C)
 
 # Laborator 3
 
